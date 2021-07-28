@@ -58,6 +58,10 @@ class Timer:
 
 if __name__ == "__main__":
     # this is some test code
+    # Expected output
+    # 23:59:59
+    # 00:00:00
+    # 23:59:59
     timer = Timer(23, 59, 59)
     print(timer)
     timer.next_second()
